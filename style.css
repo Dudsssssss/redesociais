@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');:root{
     
     --cor-principal:#8973df91;
     --cor-secundaria:#3ae7ed6e;
     --cor-texto:#bda0e2;
     --cor-de-fundo:#7089cf;
-    --font:"Sofadi One"Static;;
+    --font:"Indie Flowe"
 }
 body{
     background-color: var(--cor-principal);
