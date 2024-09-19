@@ -2,7 +2,7 @@
 :root{
     
     --cor-principal:#8973df91;
-    --cor-ecundara:#3ae7ed6e;
+    --cor-secundaria:#3ae7ed6e;
     --cor-texto:#8250c2;
     --cor-de-fundo:#50c2bc;
     --font:"Sofadi One"Static;;
@@ -11,5 +11,10 @@ body{
     background-color: var(--cor-principal);
     color: var(--cor-texto);
     font-size: var(--font);
+    height: 100vh;
+    margin: 0;
 }
-  
+.cabecalho{
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+}
