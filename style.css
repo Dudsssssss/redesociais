@@ -6,7 +6,10 @@
     --cor-texto:#8250c2;
     --cor-de-fundo:#50c2bc;
     --font:"Sofadi One"Static;;
-
 }
-
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-size: var(--font);
+}
   
