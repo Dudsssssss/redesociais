@@ -4,7 +4,7 @@
     --cor-secundaria:#3ae7ed6e;
     --cor-texto:#bda0e2;
     --cor-de-fundo:#7089cf;
-    --font:"Indie Flowe"
+    --font:"Indie Flower";
 }
 body{
     background-color: var(--cor-principal);
