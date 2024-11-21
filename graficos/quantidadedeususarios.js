@@ -10,7 +10,7 @@ async function quantidadeUsuarios PorRede() {
         y: quantidadeDeUsuarios,
         type: 'bar',
         marker: {
-            color: getCSS('--cor-principal')
+            color: getCSS('--cor-secundaria')
         }
     }
 }
@@ -18,20 +18,10 @@ const laytout = {
     plot_bgcolor: getCSS('--bg-color'),
     paper_bgcolor: getCSS(--bg-color'),
         title: {
-            text: 'Redes sociais com mais usuários',
-            x: 0,
-            font: {
-                color: getCSS('--cor-principal'),
-                size: 30,
-                font: getCSS('--font')
-            }
-        },
-        xaxis: {
-            tickfont: tickConfig,
-            title: {
+…            title: {
                 text: 'Nome das redes',
                 font: {
-                    color: getCSS('--cor-principal')
+                    color: getCSS('---cor-secundaria')
                 }
             }
         },
